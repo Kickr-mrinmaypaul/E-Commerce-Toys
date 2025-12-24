@@ -5,7 +5,9 @@ import {Router, Routes , Route, BrowserRouter} from "react-router-dom"
 
 import Login from './pages/login/Login'
 import Navbar from './components/navbar/navbar'
-
+import Layout from './layout/Layout'
+import Banner from './components/banner/Banner'
+import NewCardItemList from './components/cards/NewCardItemList'
 
 function App() {
 
@@ -14,7 +16,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* <Route path='/' element={<Login/>}/> */}
-          <Route path='/' element={<Navbar/>}/>
+          <Route path='/' element={<Layout/>}/>
+          <Route path='' element={<Banner/>}/>
+          <Route path='/card' element={<NewCardItemList/>}/>
         </Routes>
       </BrowserRouter>
     </>

@@ -1,12 +1,14 @@
 import React,{useState, useEffect} from 'react'
 
-export default function useCardData(apiEndpoints) {
+export default function useCardData(cartId) {
 
     const [cardData, setCardData] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
     useEffect(()=>{
+      if(!cartId) return;
+      
       const fetchCardData = async () =>{
 
         try {
@@ -23,7 +25,7 @@ export default function useCardData(apiEndpoints) {
         }
       }
       fetchCardData();
-    },[apiEndpoints]);
+    },[cartId]);
 
     return {cardData, loading, error};
     

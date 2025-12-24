@@ -5,7 +5,10 @@ const Input = React.forwardRef(function Input({
     label,
     type="text",
     className="", 
+    placeholder,
+    icon,
     ...props
+
 }, ref) {
   const id = useId();
   return (
@@ -22,6 +25,8 @@ const Input = React.forwardRef(function Input({
       type={type} 
       ref={ref}
       id={id}
+      icon={icon}
+      placeholder={placeholder}
       {...props}
        />
     </div>

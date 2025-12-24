@@ -1,46 +1,77 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { Headset, Search, UserRound, Heart, ShoppingCart } from 'lucide-react';
+import Input from '../input/Input';
 function Navbar() {
 
     const navLinks = [
-        { id: 1, label: 'Home', link: '/' },
-        { id: 2, label: 'About', link: '/about' },
-        { id: 3, label: 'Contact', link: '/contact'},
+        { id: 1, label: 'NEW & FEATURED', value:"", link: '/' },
+        { id: 2, label: 'CATEGORIES', value:"", link: '/about' },
+        { id: 3, label: 'CHARACTER', value:"", link: '/contact'},
+        { id: 4, label: 'ACCESSORIES', value:"", link: '/contact'},
+        { id: 5, label: 'MEGA', value:"", link: '/contact'},
+        { id: 6, label: 'HOHIDAY TREACTS', value:"", link: '/contact'},
+        { id: 7, label: 'STORE PICKUP', value:"", link: '/contact'},
     ];
 
-    const logo ="";
+
+
+    const logo ="https://cdn.vectorstock.com/i/1000v/15/18/kids-toys-logo-playful-design-vector-27051518.jpg";
 
   return (
-    <nav className='nav-link flex  flex-row justify-between items-center bg-[#D5559F]'>
-        <div className='flex h-45 justify-center items-center'>
-            <img src="logo" alt="logo" />
+    <nav className='flex flex-col bg-white pt-4'>
+
+        <div className='flex items-center justify-between px-3'>
+            <div className='flex w-1/4 bg-white justify-between py-2.5 px-2 text-black text-start border-2 border-gray-700 focus-within:ring-0.5 focus-within:ring-gray-900 rounded-full'>
+                <input type="search" 
+                    placeholder='Search Products...'
+                    className='outline-none bg-transparent text-black pl-1 placeholder-gray-900 placeholder:font-semibold text-lg font-semibold'
+                />
+                <Search className=' flex w-7 h-7 text-gray-900 justify-end right-0'/>
+            </div>
+            <div className='flex flex-row gap-2 justify-center items-center'>
+                <img src={logo} alt="TOY MyST" className='flex h-20 overflow-hidden border rounded-full'/>
+                <h2 className='text-gray-950 text-4xl '>𝐓𝐎𝐘 𝐌𝐲𝐒𝐓</h2>
+            </div>
+            <div className='flex items-center justify-between gap-2'>
+                <Link to="#">
+                    <Headset className='w-7 h-7 text-gray-900' />
+                </Link>
+                <Link to="#">
+                    <UserRound className='w-7 h-7 text-gray-900'/>
+                </Link>
+                <Link to="#">
+                    <Heart className='w-7 h-7 text-gray-900'/>
+                </Link>
+                <Link to="#">
+                    <ShoppingCart className='w-7 h-7 text-gray-900'/>
+                </Link>
+            </div>
         </div>
-        <div >
-            <ul className='flex justify-between gap-3 text-lg'> 
-                {navLinks.map((item)=>(
-                    <li key={item.id} className='text-black text-sm'>
-                        <Link 
-                        to={item.link}
-                        // className={({ isActive }) => (isActive ? 'active-link' : 'inactive-link')}
-                        >
-                            {item.label}
-                        </Link>
-                    </li>
+        <div className="mt-5 border-t-2 border-gray-300">
+            <nav className="flex justify-center">
+              <ul className="flex gap-6 md:gap-10 items-center text-lg text-gray-950 font font-semibold">
+                {navLinks.map((item) => (
+                  <li key={item.id}>
+                    <select
+                      to={item.link}
+                      className={({ isActive }) =>
+                        `text-sm font-semibold ${
+                          isActive ? "text-blue-600" : "text-gray-800 hover:text-blue-500"
+                        }`
+                      }
+                    >
+                      {/* {item.label} */}
+                        <option value="">{item.label}</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                    </select>
+                  </li>
                 ))}
-            </ul>
+              </ul>
+            </nav>
         </div>
-        <div>
-            <div>
-                {/* search */}
-            </div>
-            <div>
-                {/* profile  */}
-            </div>
-            <div>
-                {/* add to card */}
-            </div>
-        </div>
+
     </nav>
   )
 }
