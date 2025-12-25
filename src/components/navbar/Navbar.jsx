@@ -19,7 +19,7 @@ function Navbar() {
     const logo ="https://cdn.vectorstock.com/i/1000v/15/18/kids-toys-logo-playful-design-vector-27051518.jpg";
 
   return (
-    <nav className='flex flex-col bg-white pt-4'>
+    <nav className='flex flex-col bg-white w-full pt-4 top-0 fixed z-50'>
 
         <div className='flex items-center justify-between px-3'>
             <div className='flex w-1/4 bg-white justify-between py-2.5 px-2 text-black text-start border-2 border-gray-700 focus-within:ring-0.5 focus-within:ring-gray-900 rounded-full'>

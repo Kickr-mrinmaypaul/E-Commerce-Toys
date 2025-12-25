@@ -13,14 +13,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          {/* <Route path='/' element={<Login/>}/> */}
-          <Route path='/' element={<Layout/>}/>
-          <Route path='' element={<Banner/>}/>
-          <Route path='/card' element={<NewCardItemList/>}/>
-        </Routes>
-      </BrowserRouter>
+      <h1>APP</h1>
     </>
   )
 }

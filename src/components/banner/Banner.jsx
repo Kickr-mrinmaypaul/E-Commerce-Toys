@@ -42,7 +42,7 @@ function Banner() {
 //   )
 
   return (
-    <div className="w-full h-screen overflow-hidden">
+    <div className="w-full h-auto overflow-hidden mt-35">
       <div
         className={`flex h-full ${
           transition ? "transition-transform duration-500 ease-in-out" : ""
