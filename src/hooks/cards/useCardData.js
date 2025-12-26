@@ -1,23 +1,24 @@
 import React,{useState, useEffect} from 'react'
+import cardsData from "../../data/cardsData.json"
+import cardBoxData from "../../data/cardBoxData.json"
 
-export default function useCardData(cartId) {
+export default function useCardData() {
 
-    const [cardData, setCardData] = useState([]);
+    const [newCards, setNewCards] = useState([]);
+    const [blindBoxCards, setBlindBoxCards] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
     useEffect(()=>{
-      if(!cartId) return;
       
       const fetchCardData = async () =>{
 
         try {
           setLoading(true);
           // const response = await (api fetch)
-          //if(!response.ok){
-          //throw new error("API response error");
-          //}
-          // setCardData(response);
+          setNewCards(cardsData);
+          setBlindBoxCards(cardBoxData);
+
         } catch (error) {
           setError(error);
         }finally{
@@ -25,8 +26,16 @@ export default function useCardData(cartId) {
         }
       }
       fetchCardData();
-    },[cartId]);
+    },[]);
 
-    return {cardData, loading, error};
-    
+    // const getCardById = (id) =>{
+    //   return cards.find((card)=> card.id === Number(id));
+    // };
+    const getCardByTypeAndId = (type, id)=>{
+      const source = type === "new" ? newCards : blindBoxCards;
+
+      return source.find((card)=> card.id === Number(id));
+    }
+
+    return {newCards, blindBoxCards, loading, error, getCardByTypeAndId};
 }

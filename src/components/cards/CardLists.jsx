@@ -48,6 +48,8 @@ export default function CardLists() {
                         imageurl={card.img}
                         title={card.title}
                         amount={`₹${card.amount} / PICK`}
+                        wishList={false}
+                        linkurl={`/view-card-details/blindbox/${card.id}`}
                     />
                     <div className='flex w-full justify-center items-center mt-10'>
                         <button className=' text-xl font-semibold border-2 border-gray-950 px-3 py-1'>Pick Now</button>

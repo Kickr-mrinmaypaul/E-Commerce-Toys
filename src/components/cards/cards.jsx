@@ -71,6 +71,7 @@ function Cards({
     amount,
     imageurl,
     linkurl,
+    wishList=true,
     className="",
     ...props
 }){
@@ -78,14 +79,15 @@ function Cards({
     <div className='w-full max-w-xs mx-auto'>
       <Link to={linkurl}>
         <div className='card bg-transparent'>
-           {imageurl && <img src={imageurl} alt={title} className={`flex p-2 h-80 w-full object-cover rounded-4xl ${className}`} {...props}/>}
+           {imageurl && <img src={imageurl} alt={title} className={`flex p-2 w-full object-cover rounded-4xl transition-transform duration-300 hover:scale-105 ${className}`} {...props}/>}
           <div className='card-body flex flex-col  px-5'>
               <h3 className='text-xl font-semibold text-gray-950'>{title}</h3>
               <div className='flex flex-row items-center justify-between'>
                 <p className='text-xl font-semibold text-gray-950 mt-2'>{amount}</p>
-                <button className='cursor-pointer text-gray-800 font-bold'>
-                  <GoHeart className='h-7 w-7 '/>
-                </button>
+                {wishList &&( 
+                  <button className='cursor-pointer text-gray-800 font-bold'>
+                    <GoHeart className='h-7 w-7 '/>
+                  </button>)}
               </div>
           </div>
         </div>

@@ -6,18 +6,21 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import Layout from './layout/Layout.jsx'
 import Home from './pages/home/Home.jsx'
 import ViewCardDetails from './components/cards/ViewCardDetails.jsx'
+import CardContextProvider from './context/cards/CardContextProvider.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
       <Route path='' element={<Home/>}/>
-      <Route path='/view-card-details/:id' element={<ViewCardDetails/>}/>
+      <Route path='/view-card-details/:type/:id' element={<ViewCardDetails/>}/>
     </Route>
   )
 )
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+    <CardContextProvider>
+      <RouterProvider router={router}/>
+    </CardContextProvider>
   </StrictMode>,
 )

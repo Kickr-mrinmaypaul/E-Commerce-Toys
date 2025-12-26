@@ -1,36 +1,162 @@
 [
-  { "id": 1, "title": "DINO-LABUBU 1", "amount": "14,000", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 2, "title": "DINO-LABUBU 2", "amount": "15,500", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 3, "title": "DINO-LABUBU 3", "amount": "16,200", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 4, "title": "DINO-LABUBU 4", "amount": "13,800", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 5, "title": "DINO-LABUBU 5", "amount": "17,000", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 6, "title": "DINO-LABUBU 6", "amount": "14,300", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 7, "title": "DINO-LABUBU 7", "amount": "15,000", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 8, "title": "DINO-LABUBU 8", "amount": "16,800", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 9, "title": "DINO-LABUBU 9", "amount": "18,000", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 10, "title": "DINO-LABUBU 10", "amount": "14,900", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-
-  { "id": 11, "title": "DINO-LABUBU 11", "amount": "15,700", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 12, "title": "DINO-LABUBU 12", "amount": "16,400", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 13, "title": "DINO-LABUBU 13", "amount": "17,300", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 14, "title": "DINO-LABUBU 14", "amount": "13,500", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 15, "title": "DINO-LABUBU 15", "amount": "18,200", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-
-  { "id": 16, "title": "DINO-LABUBU 16", "amount": "14,600", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 17, "title": "DINO-LABUBU 17", "amount": "15,900", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 18, "title": "DINO-LABUBU 18", "amount": "16,100", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 19, "title": "DINO-LABUBU 19", "amount": "17,800", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 20, "title": "DINO-LABUBU 20", "amount": "18,500", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-
-  { "id": 21, "title": "DINO-LABUBU 21", "amount": "14,200", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 22, "title": "DINO-LABUBU 22", "amount": "15,400", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 23, "title": "DINO-LABUBU 23", "amount": "16,900", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 24, "title": "DINO-LABUBU 24", "amount": "17,600", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 25, "title": "DINO-LABUBU 25", "amount": "18,900", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-
-  { "id": 26, "title": "DINO-LABUBU 26", "amount": "14,700", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 27, "title": "DINO-LABUBU 27", "amount": "15,800", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 28, "title": "DINO-LABUBU 28", "amount": "16,300", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 29, "title": "DINO-LABUBU 29", "amount": "17,900", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" },
-  { "id": 30, "title": "DINO-LABUBU 30", "amount": "18,700", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s" }
+  {
+    "id": 1,
+    "title": "DINO-LABUBU 1",
+    "detailedTitle": "DINO-LABUBU 1 - Limited Edition Collector's Card",
+    "amount": "14,000",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 1 is a premium collectible card featuring exclusive artwork. Perfect for collectors and enthusiasts, it highlights the iconic dinosaur design with vibrant colors and intricate details. Ideal for display or adding to your collection."
+  },
+  {
+    "id": 2,
+    "title": "DINO-LABUBU 2",
+    "detailedTitle": "DINO-LABUBU 2 - Rare Edition Card",
+    "amount": "15,500",
+    "img": "https://storio.in/cdn/shop/files/419j_9HBzFL.jpg?v=1712374499",
+    "productDescription": "DINO-LABUBU 2 is a rare edition card, perfect for serious collectors. The card features a stunning illustration of the dinosaur in a dynamic pose, with high-quality printing and vibrant colors that make it stand out in any collection."
+  },
+  {
+    "id": 3,
+    "title": "DINO-LABUBU 3",
+    "detailedTitle": "DINO-LABUBU 3 - Exclusive Artwork",
+    "amount": "16,200",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 3 is an exclusive card featuring unique artwork not found in other editions. Each detail is carefully crafted to make this a standout addition to your collection. Ideal for display and collectible enthusiasts."
+  },
+  {
+    "id": 4,
+    "title": "DINO-LABUBU 4",
+    "detailedTitle": "DINO-LABUBU 4 - Collector's Special",
+    "amount": "13,800",
+    "img": "https://storio.in/cdn/shop/files/419j_9HBzFL.jpg?v=1712374499",
+    "productDescription": "DINO-LABUBU 4 is a collector's special card with vibrant illustrations and high-quality printing. Perfect for display or gifting, this card highlights the rich details of the DINO-LABUBU series."
+  },
+  {
+    "id": 5,
+    "title": "DINO-LABUBU 5",
+    "detailedTitle": "DINO-LABUBU 5 - Premium Collectible",
+    "amount": "17,000",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 5 is a premium collectible card designed for enthusiasts. Featuring vibrant colors, detailed textures, and a high-quality print finish, it is perfect for both display and adding value to your collection."
+  },
+  {
+    "id": 6,
+    "title": "DINO-LABUBU 6",
+    "detailedTitle": "DINO-LABUBU 6 - Exclusive Limited Edition",
+    "amount": "14,300",
+    "img": "https://storio.in/cdn/shop/files/419j_9HBzFL.jpg?v=1712374499",
+    "productDescription": "DINO-LABUBU 6 is an exclusive limited edition card that collectors will treasure. With unique artwork and vibrant details, it captures the essence of the DINO-LABUBU series, making it a must-have."
+  },
+  {
+    "id": 7,
+    "title": "DINO-LABUBU 7",
+    "detailedTitle": "DINO-LABUBU 7 - Premium Collectible",
+    "amount": "15,000",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 7 features detailed artwork and premium print quality. Perfect for both collectors and casual enthusiasts, it stands out in any card collection and makes an ideal display piece."
+  },
+  {
+    "id": 8,
+    "title": "DINO-LABUBU 8",
+    "detailedTitle": "DINO-LABUBU 8 - Limited Edition Series",
+    "amount": "16,800",
+    "img": "https://m.media-amazon.com/images/I/51uS6S4fzBL._AC_UF350,350_QL80_.jpg",
+    "productDescription": "DINO-LABUBU 8 is part of a limited edition series with high-quality printing and rich colors. The card features unique artwork that will appeal to collectors and fans alike."
+  },
+  {
+    "id": 9,
+    "title": "DINO-LABUBU 9",
+    "detailedTitle": "DINO-LABUBU 9 - Collector's Choice",
+    "amount": "18,000",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 9 is a collector's choice card featuring exquisite artwork and vibrant designs. Ideal for serious collectors looking to complete their series."
+  },
+  {
+    "id": 10,
+    "title": "DINO-LABUBU 10",
+    "detailedTitle": "DINO-LABUBU 10 - Special Edition",
+    "amount": "14,900",
+    "img": "https://m.media-amazon.com/images/I/51uS6S4fzBL._AC_UF350,350_QL80_.jpg",
+    "productDescription": "DINO-LABUBU 10 is a special edition card, perfect for collectors and enthusiasts. Its detailed artwork and vibrant colors make it an eye-catching addition to any collection."
+  },
+  {
+    "id": 11,
+    "title": "DINO-LABUBU 1",
+    "detailedTitle": "DINO-LABUBU 1 - Limited Edition Collector's Card",
+    "amount": "14,000",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 1 is a premium collectible card featuring exclusive artwork. Perfect for collectors and enthusiasts, it highlights the iconic dinosaur design with vibrant colors and intricate details. Ideal for display or adding to your collection."
+  },
+  {
+    "id": 12,
+    "title": "DINO-LABUBU 2",
+    "detailedTitle": "DINO-LABUBU 2 - Rare Edition Card",
+    "amount": "15,500",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 2 is a rare edition card, perfect for serious collectors. The card features a stunning illustration of the dinosaur in a dynamic pose, with high-quality printing and vibrant colors that make it stand out in any collection."
+  },
+  {
+    "id": 13,
+    "title": "DINO-LABUBU 3",
+    "detailedTitle": "DINO-LABUBU 3 - Exclusive Artwork",
+    "amount": "16,200",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 3 is an exclusive card featuring unique artwork not found in other editions. Each detail is carefully crafted to make this a standout addition to your collection. Ideal for display and collectible enthusiasts."
+  },
+  {
+    "id": 14,
+    "title": "DINO-LABUBU 4",
+    "detailedTitle": "DINO-LABUBU 4 - Collector's Special",
+    "amount": "13,800",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 4 is a collector's special card with vibrant illustrations and high-quality printing. Perfect for display or gifting, this card highlights the rich details of the DINO-LABUBU series."
+  },
+  {
+    "id": 15,
+    "title": "DINO-LABUBU 5",
+    "detailedTitle": "DINO-LABUBU 5 - Premium Collectible",
+    "amount": "17,000",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 5 is a premium collectible card designed for enthusiasts. Featuring vibrant colors, detailed textures, and a high-quality print finish, it is perfect for both display and adding value to your collection."
+  },
+  {
+    "id": 16,
+    "title": "DINO-LABUBU 6",
+    "detailedTitle": "DINO-LABUBU 6 - Exclusive Limited Edition",
+    "amount": "14,300",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 6 is an exclusive limited edition card that collectors will treasure. With unique artwork and vibrant details, it captures the essence of the DINO-LABUBU series, making it a must-have."
+  },
+  {
+    "id": 17,
+    "title": "DINO-LABUBU 7",
+    "detailedTitle": "DINO-LABUBU 7 - Premium Collectible",
+    "amount": "15,000",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 7 features detailed artwork and premium print quality. Perfect for both collectors and casual enthusiasts, it stands out in any card collection and makes an ideal display piece."
+  },
+  {
+    "id": 18,
+    "title": "DINO-LABUBU 8",
+    "detailedTitle": "DINO-LABUBU 8 - Limited Edition Series",
+    "amount": "16,800",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 8 is part of a limited edition series with high-quality printing and rich colors. The card features unique artwork that will appeal to collectors and fans alike."
+  },
+  {
+    "id": 19,
+    "title": "DINO-LABUBU 9",
+    "detailedTitle": "DINO-LABUBU 9 - Collector's Choice",
+    "amount": "18,000",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 9 is a collector's choice card featuring exquisite artwork and vibrant designs. Ideal for serious collectors looking to complete their series."
+  },
+  {
+    "id": 20,
+    "title": "DINO-LABUBU 10",
+    "detailedTitle": "DINO-LABUBU 10 - Special Edition",
+    "amount": "14,900",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQZnMbwljnz6uU10m_vWspIo5rEfQKlwujw&s",
+    "productDescription": "DINO-LABUBU 10 is a special edition card, perfect for collectors and enthusiasts. Its detailed artwork and vibrant colors make it an eye-catching addition to any collection."
+  }
 ]

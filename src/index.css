@@ -8,6 +8,16 @@
   scrollbar-width: none; /* Firefox */
 }
 
+/* Center card scaling */
+.slick-center .card {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
 
 
 /* :root {

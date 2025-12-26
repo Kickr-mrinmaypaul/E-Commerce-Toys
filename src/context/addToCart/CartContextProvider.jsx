@@ -1,5 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import CartContext from './cartContext'
+import useCardData from '../../hooks/cards/useCardData';
 
 function CartContextProvider({children}) {
     const [cartItems, setCartItems] = useState([]);

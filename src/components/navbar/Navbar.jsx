@@ -10,7 +10,7 @@ function Navbar() {
         { id: 3, label: 'CHARACTER', value:"", link: '/contact'},
         { id: 4, label: 'ACCESSORIES', value:"", link: '/contact'},
         { id: 5, label: 'MEGA', value:"", link: '/contact'},
-        { id: 6, label: 'HOHIDAY TREACTS', value:"", link: '/contact'},
+        { id: 6, label: 'HOLIDAY TREACTS', value:"", link: '/contact'},
         { id: 7, label: 'STORE PICKUP', value:"", link: '/contact'},
     ];
 
