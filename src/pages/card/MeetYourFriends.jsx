@@ -1,4 +1,4 @@
-import React,{useContext, useRef} from 'react'
+import React,{useContext, useRef, useState} from 'react'
 import CardContext from '../../context/cards/CardContext'
 import Cards from '../../components/cards/cards';
 import "slick-carousel/slick/slick.css";
@@ -9,6 +9,7 @@ export default function MeetYourFriends() {
 
     const {newCards, loading, error} = useContext(CardContext);
     const sliderRef = useRef();
+    const [centerIndex, setCenterIndex] = useState(0);
 
     const settings = {
     dots: false,
@@ -18,6 +19,7 @@ export default function MeetYourFriends() {
     slidesToShow: 5,
     speed: 500,
     focusOnSelect: true, 
+    afterChange: (current) => setCenterIndex(current),
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 5 } },
       { breakpoint: 768, settings: { slidesToShow: 4 } },
@@ -43,14 +45,15 @@ export default function MeetYourFriends() {
         <div className='flex justify-center items-center'>
             <h1 className='text-3xl text-gray-950 font-semibold '>“ ℋ𝒾 ℳℯℯ𝓉 𝒴ℴ𝓊𝓇 ℱ𝓇𝒾ℯ𝓃𝒹𝓈 “</h1>
         </div>
-       <div className='h-auto mt-20 '>
+       <div className='h-auto mt-20'>
          <Slider ref={sliderRef} {...settings} className='mt-10'>
-            {newCards.map((card)=>(
-                <div key={card.id} className="flex-shrink-0 w-[25%] md:w-[25%] sm:w-[50%] xs:w-[75%] px-3">
+            {newCards.map((card,index)=>(
+                <div key={card.id} className="flex-shrink-0 w-[20%] md:w-[20%] xl:w-[20%] 2xl:w-[20%] px-3 pb-3 xl:pb-5">
                     <Cards
                     imageurl={card.img}
                     title={card.title}
                     wishList={false}
+                    className={index === centerIndex ? "text-gray-950 font-bold text-center" : "text-gray-400 text-center"}
                     />
                 </div>
             ))}
